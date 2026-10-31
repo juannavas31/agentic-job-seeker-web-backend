@@ -1,7 +1,7 @@
 # Feature Specification: Job Seeker Backend API
 
 **Feature Branch**: `001-job-seeker-api`  
-**Created**: 2026-10-31  
+**Created**: 2026-10-31
 **Status**: Draft  
 **Input**: User description: "Backend server offering a RESTful API (FastAPI) with MongoDB/Beanie persistence, Keycloak JWT authentication, and an external LangGraph agent for job-offer fetching, evaluation, resume adaptation, and cover-letter generation."
 
