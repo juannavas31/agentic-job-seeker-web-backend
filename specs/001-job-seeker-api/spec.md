@@ -113,7 +113,7 @@ As a job seeker, I want to download a resume adapted to a specific job offer, so
 - What happens when the uploaded file is empty (0 bytes)? → 400 Bad Request.
 - What happens when the JWT is expired or has an invalid signature? → 401 Unauthorized.
 - What happens when the Keycloak server is unreachable during token validation? → 503 Service Unavailable.
-- What happens when the external agent (LangGraph) is unreachable or times out? → 502 Bad Gateway or 504 Gateway Timeout.
+- What happens when the external agent (LangGraph) is unreachable or times out? → 503 Service Unavailable.
 - What happens when `time_range` is in an unrecognized format? → 400 Bad Request.
 - What happens when `min_score` is outside the valid range (e.g., negative or > 1)? → 400 Bad Request.
 - What happens when a user requests another user's resume by providing a different `user_identifier`? → 403 Forbidden (users may only access their own resources).

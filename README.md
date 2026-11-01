@@ -5,7 +5,7 @@ This folder is the home for the project's Python API, built with FastAPI. The di
 ## Project structure
 
 ```text
-backend/
+src/
 |-- app/
 |   |-- main.py
 |   |-- api/
